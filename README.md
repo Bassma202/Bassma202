@@ -1,57 +1,33 @@
-# Hi there, I'm Bassma Alaoui Sossey 👋
+# Bassma Alaoui Sossey
 
-```
-  ____                                   _ _                 _   ____                                
- | __ )  __ _ ___ ___ _ __ ___   __ _   / \ | __ _  ___  _   _(_) / ___|  ___  ___ ___  ___ _   _ 
- |  _ \ / _` / __/ __| '_ ` _ \ / _` | / _ \| |/ _` |/ _ \| | | | | \___ \ / _ \/ __/ __|/ _ \ | | |
- | |_) | (_| \__ \__ \ | | | | | (_| |/ ___ \ | (_| | (_) | |_| | |  ___) | (_) \__ \__ \  __/ |_| |
- |____/ \__,_|___/___/_| |_| |_|\__,_/_/   \_\_|\__,_|\___/ \__,_|_| |____/ \___/|___/___/\___|\__, |
-                                                                                                |___/ 
-```
+Final-Year State Cybersecurity Engineering Student (**Diplôme d'Ingénieur d'État — EIDIA**) at **Université Euromed de Fès (UEMF)**, Morocco (2022–2027).  
+Seeking a **6-month End-of-Studies Engineering Internship (PFE — 2027)** in France, Morocco, or Europe across Security Engineering, IAM, Detection/DFIR, DevSecOps, OT/ICS Security, AI Security, and GRC/Risk Engineering.
 
-<p align="center">
-  <b>Final-Year Cybersecurity Engineering Student</b> at <b>Université Euromed de Fès (UEMF)</b><br/>
-  🎯 <i>Seeking a 6-Month End-of-Studies Internship (PFE) — 2027</i><br/>
-  📍 Fès / Casablanca, Morocco • Open to Mobility in France & International
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/bassma-alaoui-sossey-009565293"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:bassmaalaoui04@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bassma-alaoui-sossey-009565293)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bassmaalaoui04@gmail.com)
 
 ---
 
-### 🛡️ About Me
+## Flagship Cybersecurity Engineering Portfolio
 
-I am a final-year engineering student in **State Cybersecurity Engineering (Diplôme d’Ingénieur d’État)** at **UEMF**. My academic background and practical internship experience at **DataPathology** bridge the gap between technical hands-on security engineering and enterprise governance:
+All six repositories ship with automated test suites, Ruff/Bandit security checks, GitHub Actions CI, threat models, and reproducible verification artifacts.
 
-* ⚙️ **DevSecOps & Platform:** CI/CD pipeline automation, container image hardening, automated SAST, SCA, and vulnerability management.
-* 🏭 **OT & Industrial Security (ICS/SCADA):** Modbus TCP protocol analysis, deep packet inspection (DPI) security gateways, and IEC 62443 zone segmentation.
-* 🔍 **DFIR & Threat Hunting:** Windows event telemetry (EID 4688 / 4104), Atomic Red Team adversary emulation, and Detection-as-Code with Sigma rules.
-* 📋 **GRC & IT Audit:** Real-world audit experience applying ISO/IEC 27001:2022, Moroccan Law 09-08 (CNDP health-data regulations), and ANSSI EBIOS Risk Manager.
-* 🔑 **Zero-Trust IAM:** Identity federation (OAuth 2.0 / OIDC), Keycloak integration, Least Privilege RBAC, and Segregation of Duties (SoD) analysis.
-* 🤖 **AI Security:** Mitigating OWASP LLM Top 10 risks (Prompt Injection, RAG document poisoning, PII sanitization).
-
----
-
-### 🚀 Flagship Cybersecurity Projects
-
-| Project | Description | Core Stack |
-| :--- | :--- | :--- |
-| **[scada-modbus-defense-lab](https://github.com/Bassma202/scada-modbus-defense-lab)** | Industrial water pump simulator, over-speed sabotage emulation, and Zero-Trust DPI security gateway. | `Python`, `Modbus TCP`, `Scapy`, `Wireshark`, `Docker` |
-| **[windows-dfir-atomic-lab](https://github.com/Bassma202/windows-dfir-atomic-lab)** | Isolated 2-VM threat hunting lab on UTM with Atomic Red Team, PowerShell transcription, and Sigma detection rules. | `Windows 11`, `PowerShell`, `Atomic Red Team`, `Sigma`, `Sysmon` |
-| **[grc-compliance-automation-tool](https://github.com/Bassma202/grc-compliance-automation-tool)** | GRC platform automating ISO 27001:2022 SoA, Moroccan Law 09-08/CNDP, and EBIOS RM risk scoring. | `Python`, `ISO 27001`, `Law 09-08`, `EBIOS RM`, `FastAPI` |
-| **[zerotrust-iam-oidc-gateway](https://github.com/Bassma202/zerotrust-iam-oidc-gateway)** | Zero-Trust API gateway enforcing OAuth2/OIDC JWT claims, RBAC policies, and Segregation of Duties (SoD) audits. | `Keycloak`, `OAuth 2.0`, `OIDC`, `JWT`, `Docker Compose` |
-| **[llm-guardrail-security-proxy](https://github.com/Bassma202/llm-guardrail-security-proxy)** | AI security guardrail intercepting prompt injection, sanitizing PII, and auditing RAG documents for hidden attacks. | `Python`, `OWASP LLM Top 10`, `RAG Security`, `Regex Engine` |
-| **[ai-devsecops-telegram-agent](https://github.com/Bassma202/ai-devsecops-telegram-agent)** | Telegram-orchestrated ChatOps agent automating GitLab CI/CD pipelines, Docker deployment, and Trivy/Bandit scans. | `GitLab CI/CD`, `Docker`, `Trivy`, `Bandit`, `Python` |
+| System | Repository | Domain & Engineering Focus | Verified Evidence |
+|---|---|---|---|
+| **FORGE** | [`ai-devsecops-telegram-agent`](https://github.com/Bassma202/ai-devsecops-telegram-agent) | **Secure Software Supply Chain & DevSecOps** — OPA Rego v1 policy gates, CycloneDX v1.5 SBOM, Ed25519 artifact signing & tamper detection, hardened non-root containers, reusable GitHub Actions security gate | `8/8` real OPA v1.1.0 tests, `67`-component SBOM, Ed25519 1-byte tamper rejection, `9/9` pytest |
+| **CONSERVA** | [`grc-compliance-automation-tool`](https://github.com/Bassma202/grc-compliance-automation-tool) | **Cyber Governance & Quantitative Risk** — Multi-tenant ISO/IEC 27001:2022 SoA (93 structural Annex A controls + 7 ISMS clauses), Moroccan Law 09-08/CNDP mapping, EBIOS RM 4x4, FAIR Beta-PERT Monte Carlo ALE | Analytical Monte Carlo validation (<3% error), cross-tenant 403 & unjustified-exclusion 422 enforcement, 4 fictional cross-sector orgs |
+| **LIMEN** | [`zerotrust-iam-oidc-gateway`](https://github.com/Bassma202/zerotrust-iam-oidc-gateway) | **Zero-Trust Identity & Access Governance** — Asymmetric RS256/JWKS OIDC PEP, key rotation, JML lifecycle & temporary access expiration, preventive SoD engine, Jaccard role mining | Verified live against Keycloak 26.0.7 + PostgreSQL 16.6 (`401/200/403` real RS256 token & RBAC checks) |
+| **AETHER** | [`scada-modbus-defense-lab`](https://github.com/Bassma202/scada-modbus-defense-lab) | **Industrial & Cyber-Physical Security** — Strict Modbus TCP MBAP framing, HMAC-authenticated process-aware gateway with physical safety interlocks, 3-tier comparative defense & Suricata 7 IDS | Real TCP benchmark (`p50=0.287 ms`, `3,131 req/s`), live port-502 PCAP (`50` pkts) triggering `4/4` Suricata 7.0.8 alerts (`0` false alerts on FC 03) |
+| **ALETHEIA** | [`llm-guardrail-security-proxy`](https://github.com/Bassma202/llm-guardrail-security-proxy) | **LLM, RAG & Agent Security Evaluation** — Unicode/Base64 normalization, Luhn/FR-NIR/MA-CIN PII scrubber, pre-retrieval RAG ACLs, JSON-RPC 2.0 MCP symlink-safe tool guard, OWASP LLM 2025 | Live Ollama (`smollm2:360m`) 4-arch ablation: ASR reduced `93.3% -> 6.7%`, `0.0%` FPR, `0.097 ms` guardrail p50, honest failure analysis |
+| **VESPER** | [`windows-dfir-atomic-lab`](https://github.com/Bassma202/windows-dfir-atomic-lab) | **Digital Forensics & Detection Engineering** — `pySigma` compilation (Splunk SPL & Elastic Lucene ECS), `python-evtx` + `defusedxml` ingestion, precision/recall/FPR regression, Windows PowerShell triage | `6` compiled MITRE ATT&CK Sigma rules, `100%` precision / `0%` FPR on 12-case regression, dual `ubuntu-latest` + `windows-latest` CI |
 
 ---
 
-### 🛠️ Technical Skills
+## Prior Industry Experience
+- **Cybersecurity & Data Protection Intern — DataPathology (Casablanca, July–Sept. 2026):** Mapped digital pathology patient data flows, audited access permissions, evaluated Moroccan Law 09-08 / CNDP health-data compliance, and formalized RBAC and audit-logging requirements.
 
-* **Languages:** Python, C, PowerShell, Bash, SQL
-* **Security Domains:** Digital Forensics (DFIR), ICS/SCADA Security, Threat Hunting, GRC, AppSec, DevSecOps, IAM
-* **Tools & Frameworks:** Wireshark, Atomic Red Team, Bandit, Trivy, Safety, SonarQube, Keycloak, Sysmon, Sigma, UTM
-* **Standards & Compliance:** ISO/IEC 27001:2022, Moroccan Law 09-08, CNDP, EBIOS Risk Manager, IEC 62443, OWASP Top 10 / LLM Top 10
-* **Languages:** Arabic (Native), French (Fluent / C1-C2), English (Advanced / B2-C1), German (Beginner)
+## Core Technical Stack
+- **Languages:** Python 3.12, PowerShell, Bash, SQL, Rego (OPA), C
+- **Security Engineering:** OAuth 2.0 / OIDC (Keycloak), RS256/JWKS, Ed25519, OPA, CycloneDX SBOM, Suricata 7, Modbus TCP, `pySigma`, `python-evtx`, Docker, GitHub Actions
+- **Standards & Frameworks:** ISO/IEC 27001:2022, EBIOS Risk Manager, FAIR Quantitative Risk, Moroccan Law 09-08 (CNDP), IEC 62443, MITRE ATT&CK (Enterprise & ICS), OWASP LLM Top 10 (2025)
+- **Languages Spoken:** Arabic (Native), French (Fluent), English (Professional Technical C1), German (Basic)
